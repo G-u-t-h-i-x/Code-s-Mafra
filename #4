@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class main_class {
+    public static void main(String[] args) {
+        int linhas;
+        System.out.println("Quantas linhas você deseja?");
+        linhas = new Scanner(System.in).nextInt();
+        System.out.println();
+        for (int l = 1; l <= linhas; l++) {
+            for (int n = 1; n <= l; n++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+ 
+    }
+}
